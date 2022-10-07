@@ -181,6 +181,8 @@ public class TelaCalculadora extends JFrame {
 			    {
 			        Tela2 tela = new Tela2();
 			        tela.setVisible(true);
+				//fechar a tela antiga
+				dispose();
 			    }
 			}
 		});
