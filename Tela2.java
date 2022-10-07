@@ -101,6 +101,8 @@ public class Tela2 extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				TelaCalculadora calc = new TelaCalculadora();
 				calc.setVisible(true);
+				//fechar a tela antiga
+				dispose();
 			}
 		});
 		btnnovatela.setFont(new Font("Tahoma", Font.PLAIN, 20));
