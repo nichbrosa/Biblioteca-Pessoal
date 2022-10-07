@@ -79,6 +79,8 @@ public class Login extends JFrame {
 				if(checklogin(txtnome.getText(), txtsenha.getText())) {
 				Tela2 tela = new Tela2(); 
 				tela.setVisible(true);
+				//para fechar a tela antiga
+				dispose();
 				String nome1 = txtnome.getText();
 				JOptionPane.showMessageDialog(null, "Bem vindo ao sistema!", "Parabens!", JOptionPane.INFORMATION_MESSAGE);
 				}else {
